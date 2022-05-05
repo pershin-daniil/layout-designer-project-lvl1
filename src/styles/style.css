@@ -22,8 +22,11 @@ body {
   height: 100%;
   opacity: 10%;
   z-index: -1;
-  background-color: #f5f4f0;
+}
 
+.bg-main-header {
+  background-color: #f5f4f0;
+  z-index: -1;
 }
 
 .bg-main::before {
@@ -75,7 +78,7 @@ header img {
 }
 
 header article {
-  margin-top: 198px;
+  margin-top: 202px;
 }
 
 /* header article span {
