@@ -79,6 +79,11 @@ header article {
   margin-top: 200px;
 }
 
+header article span {
+  display: block;
+  padding-top: 20px;
+}
+
 header button {
   margin-top: 40px;
   padding: 12px 24px;
