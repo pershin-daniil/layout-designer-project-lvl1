@@ -1,16 +1,16 @@
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
 .bg-main-header::before {
-  background-image: url(../img/background.png);
+  background-image: "url(../img/background.png)";
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
@@ -20,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 10%;
+  opacity: 0.1;
   z-index: -1;
 }
 
@@ -42,7 +42,6 @@ body {
   height: 100%;
   opacity: 0.1;
   z-index: -100;
-
 }
 
 .bg-dark::before {
@@ -59,7 +58,6 @@ body {
 
 header {
   position: relative;
-
 }
 
 header div {
@@ -88,14 +86,13 @@ header article {
 
 header .button {
   width: 147px;
-  display: block;
   margin-top: 40px;
   padding: 12px 24px;
   background-color: #fe8a02;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -109,8 +106,6 @@ header .button {
 header a {
   color: #fff;
 }
-
-
 
 section .navigation {
   background-color: #42413c;
@@ -167,7 +162,7 @@ main .pre-video div {
   margin-bottom: 20px;
   background-color: #b09a81;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #fff;
@@ -181,7 +176,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
   font-weight: 400;
   margin: 0px;
@@ -193,7 +188,7 @@ h2 span,
 h3 span,
 h4 span,
 h5 span {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 h1 {
@@ -217,7 +212,7 @@ p {
 }
 
 a {
-  color: #2A2626;
+  color: #2a2626;
   cursor: pointer;
   text-decoration: none;
   height: fit-content;
@@ -238,7 +233,7 @@ a {
   margin-bottom: 20px;
   background-color: #b09a81;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
@@ -253,20 +248,20 @@ a {
 }
 
 .container-for-light h2 {
-  color: #2A2626;
+  color: #2a2626;
   margin-bottom: 30px;
 }
 
 .container-for-light .large-text {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: 34px;
   line-height: 1.2;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .before-title {
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   color: #908d8b;
   margin-top: 0;
 }
@@ -303,7 +298,7 @@ a {
 
 .container-for-dark .text-img .large-text {
   margin-top: 30px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: 34px;
   line-height: 1.2;
   color: #fff;
@@ -354,7 +349,7 @@ h2 .light {
 .card .num {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1;
   text-align: left;
 }
@@ -362,7 +357,7 @@ h2 .light {
 .card .title {
   font-size: 34px;
   color: #fe8a02;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   text-align: left;
   line-height: 1;
   margin-bottom: 16px;
@@ -430,7 +425,7 @@ h2 .light {
 }
 
 .left-side {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: 34px;
   line-height: 1.2;
   font-weight: 400;
