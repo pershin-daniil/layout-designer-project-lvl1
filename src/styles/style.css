@@ -110,9 +110,10 @@ header a {
   color: #fff;
 }
 
-/* main {
-    position: relative;
-} */
+main section {
+  background-color: #f5f4f0;
+  z-index: -100;
+}
 
 section div {
   position: relative;
