@@ -405,7 +405,8 @@ h2 .light {
   width: 1110px;
   display: flex;
   flex-direction: column;
-  margin: 100px auto 100px auto;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .up-of-footer {
