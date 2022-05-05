@@ -110,9 +110,11 @@ header a {
   color: #fff;
 }
 
-main section {
-  background-color: #f5f4f0;
-  z-index: -100;
+
+
+section .navigation {
+  background-color: #42413c;
+  z-index: -50;
 }
 
 section div {
@@ -491,4 +493,10 @@ h2 .light {
 .down-of-footer a {
   text-decoration: underline;
   color: -webkit-link;
+}
+
+.ikea-effect,
+.distortion-of-novelty,
+.error-in-planning {
+  background-color: #f5f4f0;
 }
