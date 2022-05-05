@@ -117,7 +117,7 @@ section .navigation {
   z-index: -50;
 }
 
-section div {
+section .div-container {
   position: relative;
   width: 1110px;
   margin-left: auto;
