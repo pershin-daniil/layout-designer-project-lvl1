@@ -316,8 +316,6 @@ a {
 
 }
 
-
-
 .card {
   display: block;
   width: 302px;
@@ -325,6 +323,10 @@ a {
   padding: 24px;
   background-color: #f5f4f0;
   margin-bottom: 20px;
+}
+
+.card-up-line {
+  height: 282px;
 }
 
 .table h2 {
@@ -339,7 +341,7 @@ div .table {
 }
 
 h2 .light {
-  color: #f5f4f0;
+  color: #fff;
 }
 
 .card p {
