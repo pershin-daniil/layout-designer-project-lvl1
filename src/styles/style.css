@@ -131,7 +131,11 @@ section div ul {
 }
 
 .pre-video {
-  margin-bottom: -200px;
+  margin-bottom: -100px;
+}
+
+main .pre-video div {
+  padding-bottom: 0;
 }
 
 .navigation {
@@ -385,6 +389,12 @@ h2 .light {
 
 .text-center {
   text-align: center;
+}
+
+.pre-video div span:last-child {
+  display: block;
+  color: #fe8a02;
+  margin-bottom: 34px;
 }
 
 .mb-3 {
