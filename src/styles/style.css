@@ -86,10 +86,11 @@ header article {
   padding-top: 12px;
 } */
 
-header button {
+header .button {
+  width: 147px;
+  display: block;
   margin-top: 40px;
   padding: 12px 24px;
-  border: 0;
   background-color: #fe8a02;
   font-weight: 700;
   color: #fff;
@@ -97,8 +98,12 @@ header button {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-left: 0;
+}
+
+.button a {
+  z-index: 100;
 }
 
 header a {
