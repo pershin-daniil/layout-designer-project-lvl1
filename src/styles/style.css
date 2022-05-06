@@ -14,10 +14,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-weight: 400;
-  margin: 0px;
   color: #fe8a02;
 }
 
@@ -150,6 +149,12 @@ header a {
   color: #fff;
 }
 
+.navigation {
+  position: relative;
+  padding-top: 100px;
+  text-align: left;
+}
+
 section .navigation {
   background-color: #42413c;
   z-index: -50;
@@ -174,6 +179,10 @@ section div ul {
   text-align: left;
 }
 
+input {
+  padding: 0;
+}
+
 .pre-video {
   margin-bottom: -100px;
 }
@@ -182,15 +191,26 @@ main .pre-video div {
   padding-bottom: 0;
 }
 
-.navigation {
-  position: relative;
-  padding-top: 100px;
-}
-
 .columns-2 {
   column-count: 2;
   column-gap: 30px;
   text-align: left;
+}
+
+.container-for-light p {
+  line-height: 1.6;
+}
+
+.down-of-footer p {
+  font-size: 14px;
+}
+
+.right-side p {
+  font-size: 12px;
+}
+
+.card p {
+  margin: 0;
 }
 
 .columns-2 p:last-child {
@@ -202,7 +222,6 @@ main .pre-video div {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: #b09a81;
-
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -222,7 +241,6 @@ main .pre-video div {
   margin-top: 100px;
   margin-bottom: 20px;
   background-color: #b09a81;
-
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -233,17 +251,13 @@ main .pre-video div {
   text-transform: uppercase;
 }
 
-.container-for-light p {
-  line-height: 1.6;
-}
-
 .container-for-light h2 {
   color: #2a2626;
   margin-bottom: 30px;
 }
 
 .container-for-light .large-text {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 34px;
   line-height: 1.2;
   color: #2a2626;
@@ -251,7 +265,7 @@ main .pre-video div {
 
 .before-title {
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   color: #908d8b;
   margin-top: 0;
 }
@@ -272,6 +286,11 @@ main .pre-video div {
   z-index: -200;
 }
 
+.text-img {
+  text-align: left;
+  margin-left: 30px;
+}
+
 .container-for-dark .text-img p {
   margin: 0;
   color: #fff;
@@ -282,13 +301,18 @@ main .pre-video div {
   color: #fff;
 }
 
+.table h2 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
 .container-for-dark .text-img h2 {
   color: #fff;
 }
 
 .container-for-dark .text-img .large-text {
   margin-top: 30px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 34px;
   line-height: 1.2;
   color: #fff;
@@ -301,7 +325,6 @@ main .pre-video div {
 .for-dark .columns-2 h3 {
   background-color: #fff;
   color: #b09a81;
-
 }
 
 .card {
@@ -317,11 +340,6 @@ main .pre-video div {
   height: 282px;
 }
 
-.table h2 {
-  font-size: 52px;
-  line-height: 1.2;
-}
-
 div .table {
   width: 350px;
   padding: 0;
@@ -332,14 +350,10 @@ h2 .light {
   color: #fff;
 }
 
-.card p {
-  margin: 0;
-}
-
 .card .num {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1;
   text-align: left;
 }
@@ -347,7 +361,7 @@ h2 .light {
 .card .title {
   font-size: 34px;
   color: #fe8a02;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   text-align: left;
   line-height: 1;
   margin-bottom: 16px;
@@ -357,29 +371,19 @@ h2 .light {
   font-size: 16px;
 }
 
-.navigation {
-  text-align: left;
-}
-
 #five {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .div-img {
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-.text-img {
-  text-align: left;
-  margin-left: 30px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
 
 .text-center {
@@ -415,7 +419,7 @@ h2 .light {
 }
 
 .left-side {
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   font-size: 34px;
   line-height: 1.2;
   font-weight: 400;
@@ -424,60 +428,49 @@ h2 .light {
 .right-side {
   display: flex;
   flex-direction: column;
-  position: relative;
+}
+
+.rs-container {
+  display: flex;
+  align-items: flex-end;
 }
 
 .right-side input {
   height: 50px;
-  width: 485px;
-  margin: 15px 0 0 0;
-  border: 0px;
-  padding: 0px;
+  width: 415px;
+  margin: 15px 0 0;
+  border: 0;
 }
 
 .right-side label {
   font-size: 18px;
 }
 
-.right-side button {
+.right-side .footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 70px;
-  position: absolute;
-  top: 41px;
-  right: 0px;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  top: 42px;
   background-color: #fe8a02;
 }
 
-.right-side p {
-  font-size: 12px;
-
+.down-of-footer a {
+  text-decoration: underline;
+  color: -webkit-link;
 }
 
 .right-side p a {
   color: #fff;
-
 }
 
 .down-of-footer {
   margin-top: 60px;
 }
 
-.down-of-footer p {
-  font-size: 14px;
-  line-height: 1.6;
+.footer-p {
   margin-bottom: 16px;
-}
-
-.down-of-footer p:last-child {
-  margin-bottom: 0px;
-}
-
-.down-of-footer a {
-  text-decoration: underline;
-  color: -webkit-link;
 }
 
 .ikea-effect,
